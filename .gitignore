@@ -1,0 +1,26 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+.env
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+# Environment variables and secrets
+.env.*
+!.env.example
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Temporary and operating-system files
+*.log
+.DS_Store
+Thumbs.db
+
+# Keep project data and trained model files tracked
+!data/
+!models/
